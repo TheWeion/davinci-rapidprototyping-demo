@@ -1,0 +1,88 @@
+
+
+/* Navigation */
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #632416;
+    
+
+}
+
+nav>a {
+    text-decoration:none;
+    margin: 40px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+nav>a:hover {
+    text-decoration:none;
+    margin: 50px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-weight: 700;
+
+}
+
+h1{
+    color:#cc3a00;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+
+footer{ 
+    padding: 40px;
+    background-color:#ffebad;
+}
+
+footer > p {
+    text-align: end;
+    font-family: 'Space Mono', monospace;
+    color: black;
+    font-size: 16px;
+}
+
+/* Images */
+
+.img{
+    display: block;
+    width:100%;
+
+}
+
+/* Main section */
+.flex {
+    display: flex;
+    padding: 0p 50px;
+}
+
+
+.paragraph {
+    padding: 50px; 
+}
+
+
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:1024px) {
+
+    /* Increase bottom padding for card columns on mobile */
+    .col {
+        padding-bottom: 32px;
+    }
+}
