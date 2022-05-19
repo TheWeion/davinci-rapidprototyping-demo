@@ -1,25 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
     <!-- Add futureproof favicons -->
-    <link href="https://uploads-ssl.webflow.com/618d068d04660411b63872f6/61a8a2935d913427d31de235_favicon.png" rel="shortcut icon" type="image/x-icon">
-   <link href="https://uploads-ssl.webflow.com/618d068d04660411b63872f6/61a8a299c6f16674367ab105_webclip.png" rel="apple-touch-icon">
-   
+    <link
+      href="https://uploads-ssl.webflow.com/618d068d04660411b63872f6/61a8a2935d913427d31de235_favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://uploads-ssl.webflow.com/618d068d04660411b63872f6/61a8a299c6f16674367ab105_webclip.png"
+      rel="apple-touch-icon"
+    />
+
     <!-- Bootstrap 5.2.0-beta1 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
     <title>DAVINCI - Scientific Method</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Bootstrap 5.2.0-beta1 JS libaries -->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
 
-</body>
+    <!-- Code below -->
+
+    <h1>Scientific Payload</h1>
+
+    <!-- One overall div containing carousel and accordion -->
+    <div class="row row-cols-sm-2 p-3">
+      <!-- Carousel -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://ssed.gsfc.nasa.gov/davinci/static/media/mission-probe-square.be6701bc.webp"
+              class="d-block w-100"
+              alt="probe"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DAVINCI'S PROBE</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/96/DAVINCI_Venus_Mass_Spectrometer.jpg"
+              class="d-block w-100"
+              alt="vms"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Venus Mass Spectrometer (VMS)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="d-block w-100"
+              alt="VTLS"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- doesnt need label -->
+              <h5></h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Accordion -->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              DAVINCI'S PROBE
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              After exploring the top of Venus’s atmosphere and the composition
+              of a mountainous region known as Alpha Regio,
+              <strong>DAVINCI</strong> will drop its probe to the surface in
+              2031. Made of titanium, one of the world’s strongest metals, the
+              spherical probe is about 1 meter, or 3 feet, wide. The probe and
+              its five scientific instruments will be built to withstand the
+              extreme environment on Venus, where there’s crushing air pressure,
+              clouds made of acid that can dissolve most metals, and a surface
+              hot enough to melt lead.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Venus Mass Spectrometer (VMS)
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              The probe’s mass spectrometer, VMS, will study the Venus
+              atmosphere, including noble gases and a profile of major, minor,
+              and trace composition from 67 km to the near-surface, to
+              understand Venus’s past and present.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Venus Tunable Laser Spectrometer (VTLS)
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              The probe’s tunable laser spectrometer, VTLS, will measure
+              isotopes in the Venus atmospheric chemical compounds to offer
+              clues to Venus’s past.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
