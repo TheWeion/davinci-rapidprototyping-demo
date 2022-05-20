@@ -84,6 +84,7 @@ section {
 
 .card>h3 { color:black; }
 
+.card-text>* { color: white; }
 /* MEDIA QUERIES */
 @media only screen and (max-width:1024px) {
 
