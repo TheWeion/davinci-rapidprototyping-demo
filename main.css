@@ -59,14 +59,17 @@ footer > p {
 }
 
 /* Main section */
-.flex {
+/* .flex {
     display: flex;
-    padding: 0p 50px;
+    padding: 0 50px;
+} */
+
+section {
+    padding: 50px;
 }
 
-
 .paragraph {
-    padding: 50px; 
+    padding: 0px 50px; 
 }
 
 
